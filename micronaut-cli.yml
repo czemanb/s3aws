@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: example.micronaut.micronautguide
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [app-name, aws-v2-sdk, graalvm, gradle, http-client-test, java, java-application, junit, logback, micronaut-aot, micronaut-build, netty-server, object-storage-aws, readme, serialization-jackson, shade, yaml, yaml-build]
