@@ -1,3 +1,8 @@
 micronaut:
-  application:
-    name: s3aws
+  object-storage:
+    aws:
+      default:
+        bucket: # add bucket name
+  server:
+    multipart:
+      max-file-size: 20971520 # 20 * 1024 * 1024 = 20MB
